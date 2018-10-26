@@ -1,7 +1,7 @@
 import subprocess,argparse,os,shutil,sys
 
 #arguments parsing
-parser=argparse.ArgumentParser(description="example: unicondria.py -I homo_sapiens.fasta -M paired -1 left.fastq -2 right.fastq -P 16 -T metazoa -O homosapiens_mito -C ")
+parser=argparse.ArgumentParser(description="example: mitoRNA.py -I reference_mitogenome.fasta -M paired -1 left.fastq -2 right.fastq -P 16 -T metazoa -O target_mitogenome -C ")
 #change the optional title
 parser._optionals.title = "Required Arguments"
 optional_args=parser.add_argument_group('Optional Arguments')
