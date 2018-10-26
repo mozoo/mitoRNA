@@ -12,7 +12,7 @@ parser.add_argument('-1',dest='fastq1',required=False,help='mate 1 containing th
 parser.add_argument('-2',dest='fastq2',required=False,help='mate 2 containing the raw reads')
 parser.add_argument('-U',dest='single',required=False,help='Fastq containing the raw reads')
 optional_args.add_argument('-P',dest='threads',required=False,help='Number of threads, (1)',default="1")
-optional_args.add_argument('-T',dest='taxa',required=False,help='Taxa to filter the contigs (to avoid contaminations) (Metazoa)',default="Metazoa")
+#optional_args.add_argument('-T',dest='taxa',required=False,help='Taxa to filter the contigs (to avoid contaminations) (Metazoa)',default="Metazoa")
 parser.add_argument('-O',dest='out',required=True,help='Output directory')
 optional_args.add_argument('-C',dest='clean',required=False,help='Full clean up (delete all intermediate files)',action="store_true")
 optional_args.add_argument('-N',dest='end',required=False,help='maximum number of iterations')
